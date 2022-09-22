@@ -15,7 +15,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = ['Home', 'About', 'Contact', 'Sign In'];
 
 function Navbar(props) {
     const { window } = props;
@@ -94,7 +94,7 @@ function Navbar(props) {
 
             <Box component={"main"} sx={{ p: 3 }}>
                 <Toolbar />
-                fjdskjf
+                folder stucture for complex project
             </Box>
         </Box>
     );
