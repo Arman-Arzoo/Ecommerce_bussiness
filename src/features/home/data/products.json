@@ -1,0 +1,23 @@
+[
+    {
+        "productId": "1",
+        "image": "image 1",
+        "productName": "product one",
+        "productDescription": "description of your product",
+        "url": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "productId": "2",
+        "image": "image 2",
+        "productName": "product two",
+        "productDescription": "description of your product",
+        "url": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "productId": "3",
+        "image": "image 3",
+        "productName": "product three",
+        "productDescription": "description of your product",
+        "url": "https://images.pexels.com/photos/3621234/pexels-photo-3621234.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]

@@ -1,12 +1,17 @@
+import { Box, createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import React from 'react'
-import Navbar from './layouts/Navbar'
-
+import Home from './pages/Home'
+import theme from './theme/index'
 
 const App = () => {
+
     return (
-        <div>
-            <Navbar />
-        </div>
+        <ThemeProvider theme={theme}>
+            <Box >
+                <CssBaseline />
+                <Home />
+            </Box>
+        </ThemeProvider >
     )
 }
 

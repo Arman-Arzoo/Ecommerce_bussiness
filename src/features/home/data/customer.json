@@ -1,0 +1,23 @@
+[
+    {
+        "cutomerId": "1",
+        "image": "image 1",
+        "customerName": "product one",
+        "customerDescription": "description of your product",
+        "url": "https://images.pexels.com/photos/1472761/pexels-photo-1472761.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "cutomerId": "2",
+        "image": "image 2",
+        "customerName": "product two",
+        "customerDescription": "description of your product",
+        "url": "https://images.pexels.com/photos/997217/pexels-photo-997217.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "cutomerId": "3",
+        "image": "image 3",
+        "customerName": "product three",
+        "customerDescription": "description of your product",
+        "url": "https://images.pexels.com/photos/1315741/pexels-photo-1315741.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]

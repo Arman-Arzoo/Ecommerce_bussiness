@@ -63,7 +63,7 @@ function Navbar(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        MUI
+                        Ecommerce Store
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
@@ -93,8 +93,8 @@ function Navbar(props) {
             </Box>
 
             <Box component={"main"} sx={{ p: 3 }}>
-                <Toolbar />
-                folder stucture for complex project
+                {/* <Toolbar /> */}
+
             </Box>
         </Box>
     );
