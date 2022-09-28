@@ -10,6 +10,7 @@ const App = () => {
             <Box >
                 <CssBaseline />
                 <Home />
+                {/* <Example /> */}
             </Box>
         </ThemeProvider >
     )
