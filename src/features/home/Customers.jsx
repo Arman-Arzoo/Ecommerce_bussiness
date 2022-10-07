@@ -5,6 +5,8 @@ import CustomerCard from './components/CustomerCard'
 import { customerLists } from './data'
 
 const Customers = () => {
+
+
     return (
         <Container maxWidth="xlg" >
             <Typography variant="h4" textAlign={'center'} pt={3} >

@@ -5,6 +5,8 @@ import ProductCard from './components/ProductCard'
 import { productLists } from './data'
 
 const Products = () => {
+
+
     return (
         <Container maxWidth="xlg" >
             <Typography variant="h4" textAlign={'center'} pt={3} >
@@ -20,7 +22,6 @@ const Products = () => {
                         )
                     })
                 }
-
 
             </Box>
             <Box sx={{ display: 'flex', justifyContent: 'center' }}>
