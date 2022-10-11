@@ -1,7 +1,8 @@
-import { Box, createTheme, CssBaseline, ThemeProvider } from '@mui/material'
+import { Box, CssBaseline, ThemeProvider } from '@mui/material'
 import React from 'react'
-import Home from './pages/Home'
 import theme from './theme/index'
+import MainLayout from './layouts/MainLayout'
+import { Link } from 'react-router-dom'
 
 const App = () => {
 
@@ -9,8 +10,7 @@ const App = () => {
         <ThemeProvider theme={theme}>
             <Box >
                 <CssBaseline />
-                <Home />
-                {/* <Example /> */}
+                <MainLayout />
             </Box>
         </ThemeProvider >
     )
