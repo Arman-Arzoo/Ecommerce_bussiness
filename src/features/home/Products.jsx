@@ -15,10 +15,10 @@ const Products = () => {
 
             <Box pt={3} sx={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                 {
-                    productLists?.map((item) => {
+                    productLists?.map((item, index) => {
                         return (
 
-                            <ProductCard item={item} />
+                            <ProductCard item={item} key={index} />
                         )
                     })
                 }

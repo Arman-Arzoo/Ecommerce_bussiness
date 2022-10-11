@@ -15,10 +15,10 @@ const Customers = () => {
 
             <Box pt={3} sx={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                 {
-                    customerLists?.map((item) => {
+                    customerLists?.map((item, index) => {
                         return (
 
-                            <CustomerCard item={item} />
+                            <CustomerCard item={item} key={index} />
                         )
                     })
                 }
